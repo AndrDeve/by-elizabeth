@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  width: 1.3rem;
+}
+html::-webkit-scrollbar-track {
+  background: #F6F3EF;
+}
+html::-webkit-scrollbar-thumb {
+  background: #d0d0d0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 4000;
+  border-bottom: 5px solid #F6F3EF;
+}
+.header .header-center {
+  background: #ffffff;
+}
+.header .header-center .header-center-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 6%;
+}
+.header .header-center .header-center-items .logos-redes-sociales .bx {
+  font-size: 2.5rem;
+  margin: 0 0.5rem 0 0.5rem;
+  color: #444444;
+}
+.header .header-center .header-center-items .logos-redes-sociales .bx:hover {
+  color: #C39E2E;
+}
+.header .header-center .navbar a {
+  display: inline-block;
+  color: #555555;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+.header .header-center .navbar a:hover {
+  color: #C39E2E;
+}
+
+#menu-btn {
+  font-size: 3rem;
+  cursor: pointer;
+  display: none;
+}
+
+.home {
+  padding: 0 10%;
+  margin-top: 9.1rem;
+  background: #F8F2FC;
+}
+.home .slide {
+  min-height: 100vh;
+  background-size: cover !important;
+  background-position: 0rem 10% !important;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.home .slide .content {
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.home .slide .content h3 {
+  font-size: 3.5rem;
+  color: #C39E2E;
+  display: block;
+  font-weight: 500;
+  letter-spacing: 1rem;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 2rem 4rem 2rem 4rem;
+  background: rgba(248, 242, 252, 0.2);
+  color: #333333;
+  cursor: pointer;
+  font-size: 1.7rem;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #C39E2E;
+  font-weight: 500;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  background: #ffffff;
+  color: #C39E2E;
+}
+
+.swiper-pagination-bullet {
+  height: 2rem;
+  width: 2rem;
+  background: rgb(108, 108, 108);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #E0C97A;
+}
+
+.seccion-datos {
+  width: 100%;
+}
+.seccion-datos .color-container {
+  padding: 2rem 6% 0 6%;
+  background: #F6F3EF;
+}
+.seccion-datos .color-container .container-datos {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.seccion-datos .color-container .container-datos .item-datos i {
+  color: #555555;
+  font-size: 3.5rem;
+}
+.seccion-datos .color-container .container-datos p {
+  font-size: 2.2rem;
+  margin-top: 0.5rem;
+  color: #555555;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+    scroll-padding: 7rem;
+  }
+  .header .header-center .header-center-items figure img {
+    height: 10rem;
+    width: 20rem;
+  }
+}
+@media (max-width: 900px) {
+  .home .slide .content {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+    color: #444444;
+    /*rotar la X */
+  }
+  #menu-btn.fa-times {
+    transform: rotate(180deg);
+  }
+  .home {
+    margin-top: 9.5rem;
+  }
+  .header .header-center .header-center-items {
+    flex-direction: row;
+    padding: 0.5rem 6%;
+  }
+  .header .header-center .header-center-items .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    /* desaparece menu responsivo */
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    /* aparece menu responsivo */
+  }
+  .header .header-center .header-center-items .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .header-center .header-center-items .navbar a {
+    display: block;
+    font-size: 2rem;
+    color: #000;
+    padding: 2.5rem 5.1%;
+    border-bottom: 1px solid #E0C97A;
+  }
+  .header .header-center .header-center-items .navbar a:hover {
+    color: #C39E2E;
+  }
+  .header .header-center .header-center-items .logos-redes-sociales .bx {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 700px) {
+  .home {
+    padding: 0;
+  }
+}
+@media (max-width: 550px) {
+  .home .home-slider .swiper-wrapper .slide {
+    min-height: 77vh;
+    background-position: 50% 90% !important;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  html .header .header-center .header-center-items figure img {
+    height: 8rem;
+    width: 17rem;
+  }
+  html .header .header-center .header-center-items #menu-btn {
+    margin-right: 1.5rem;
+  }
+  html .home .slide .content h3 {
+    font-size: 3.2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
