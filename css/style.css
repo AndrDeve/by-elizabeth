@@ -177,6 +177,11 @@ body {
 }
 .seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos {
   position: relative;
+  margin-bottom: 3.5rem;
+}
+.seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos img {
+  height: 395px;
+  width: 326px;
 }
 .seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos h2 {
   position: absolute;
@@ -275,6 +280,16 @@ body {
     font-size: 3rem;
   }
 }
+@media (max-width: 740px) {
+  .seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos {
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+  }
+  .seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos img {
+    height: 450px;
+    width: 381px;
+  }
+}
 @media (max-width: 700px) {
   .home {
     padding: 0;
@@ -302,5 +317,9 @@ body {
   }
   html .home .slide .content h3 {
     font-size: 3.2rem;
+  }
+  .seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos img {
+    height: 375px;
+    width: 306px;
   }
 }/*# sourceMappingURL=style.css.map */
