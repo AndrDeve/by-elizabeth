@@ -66,6 +66,7 @@ body{
 
                &:hover{
                 color: $letras-nav;
+                // transform: scale(1.1);
             }
             }
         }
@@ -174,13 +175,17 @@ body{
             justify-content: space-between;
             text-align: center;
 
+            .item-datos{
+                padding: 1rem 0 4rem 0;
+            }
+
             .item-datos i{
                 color: #555555;
                 font-size: 3.5rem;
             }
 
             p{
-                font-size: 2.1rem;
+                font-size: 2.7rem;
                 margin-top: .5rem;
                 color: #555555;
                 font-family: 'Oleo Script Swash Caps', cursive;
@@ -189,7 +194,68 @@ body{
     }
 }
 
+//sección datos dos
+.seccion-datos-dos{
+    padding-top: 4rem;
+    width: 100%;
 
+    .color-container-dos{
+        width: 100%;
+        background: #F6F3EF;
+        padding-top: 3rem;
+
+        .container-datos-dos{
+            padding: 0 6%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .item-datos-dos{
+                position: relative;
+
+                h2{
+                    position: absolute;
+                    bottom:26%;
+                    left: 50%;
+                    transform: translate(-50%, -0%);
+                    text-align: center;
+                    background: rgba(255, 255, 255, 50%);
+                    font-size: 2rem;
+                    height: 19rem;
+                    width: 80%;
+                    padding: 2rem 0;
+                    line-height: 3.5rem;
+                    letter-spacing: .6rem;
+                    font-size: 2rem;
+                    color: #222222;
+
+                    span{
+                        font-family: 'Oleo Script Swash Caps', cursive;
+                        font-weight: 300;
+                        color: #222222;
+                        letter-spacing: .3rem;
+                        font-size: 2.2rem;
+                    }
+
+                    a{
+                        font-size: 1.5rem;
+                        letter-spacing: .2rem;
+                        background: #fff;
+                        padding: .5rem 5rem;
+                        color: #222222;
+                        border: 1px solid $letras-nav;
+                        font-weight: 400;
+
+                        &:hover{
+                            color: $letras-nav;
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -282,6 +348,10 @@ body{
     .home .home-slider .swiper-wrapper .slide{
         min-height: 77vh;
         background-position: 50% 90% !important;
+    }
+
+    .seccion-datos .color-container .container-datos p{
+        font-size: 2.2rem;
     }
 }
 
