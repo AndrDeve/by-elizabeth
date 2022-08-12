@@ -220,6 +220,29 @@ body {
   font-size: 1.6rem;
 }
 
+.swiper2 {
+  padding: 5rem 4rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 25rem;
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -228,6 +251,10 @@ body {
   .header .header-center .header-center-items figure img {
     height: 10rem;
     width: 20rem;
+  }
+  .swiper-slide img {
+    width: 20rem;
+    height: 20rem;
   }
 }
 @media (max-width: 900px) {
@@ -289,10 +316,20 @@ body {
     height: 450px;
     width: 381px;
   }
+  .swiper-slide img {
+    width: 17rem;
+    height: 17rem;
+  }
 }
 @media (max-width: 700px) {
   .home {
     padding: 0;
+  }
+}
+@media (max-width: 620px) {
+  .swiper-slide img {
+    width: 15rem;
+    height: 15rem;
   }
 }
 @media (max-width: 550px) {
@@ -302,6 +339,10 @@ body {
   }
   .seccion-datos .color-container .container-datos p {
     font-size: 2.2rem;
+  }
+  .swiper-slide img {
+    width: 13rem;
+    height: 13rem;
   }
 }
 @media (max-width: 450px) {
@@ -321,5 +362,9 @@ body {
   .seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos img {
     height: 370px;
     width: 301px;
+  }
+  .swiper-slide img {
+    width: 10rem;
+    height: 10rem;
   }
 }/*# sourceMappingURL=style.css.map */
