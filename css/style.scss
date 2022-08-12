@@ -286,6 +286,17 @@ body{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+
+    .imghvr-shutter-in-out-diag-1{
+        background: rgba(255, 0, 0, 0.1);
+
+        figcaption a:hover{
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 2.8rem;
+            padding-top: 43%;
+        }
+    }
   }
 
   .swiper-slide img {
