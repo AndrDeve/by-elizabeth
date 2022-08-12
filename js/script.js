@@ -32,7 +32,7 @@ var swiper = new Swiper(".home-slider", {
 //lo más vendido
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
-  spaceBetween: 45,
+  spaceBetween: 55,
   autoplay:{
     delay:3000,
     disableOnInteraction: false,
