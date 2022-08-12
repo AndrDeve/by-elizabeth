@@ -436,6 +436,14 @@ html .img__item:hover .container__item__hover{
     .home{
         padding: 0;
     }
+
+    .swiper2 .container__item__hover{
+        height: 6rem;
+      }
+      
+      .swiper2 .container__item__hover a{
+        font-size: 1.3rem;
+      }
 }
 
 @media (max-width:620px){
@@ -459,7 +467,16 @@ html .img__item:hover .container__item__hover{
         width: 17rem;
         height: 17rem;
       }  
+
+      .swiper2 .container__item__hover{
+        height: 4.5rem;
+      }
+      
+      .swiper2 .container__item__hover a{
+        font-size: 1rem;
+      }
 }
+
 
 @media (max-width:450px){
 
