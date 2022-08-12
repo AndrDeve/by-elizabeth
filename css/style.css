@@ -391,8 +391,8 @@ html .img__item:hover .container__item__hover {
     width: 301px;
   }
   .swiper-slide img {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
   }
   .swiper2 .container__item__hover {
     height: 4rem;
@@ -403,7 +403,7 @@ html .img__item:hover .container__item__hover {
 }
 @media (max-width: 370px) {
   .swiper-slide img {
-    width: 13rem;
-    height: 13rem;
+    width: 19rem;
+    height: 19rem;
   }
 }/*# sourceMappingURL=style.css.map */
