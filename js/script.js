@@ -33,6 +33,10 @@ var swiper = new Swiper(".home-slider", {
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 45,
+  autoplay:{
+    delay:3000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
