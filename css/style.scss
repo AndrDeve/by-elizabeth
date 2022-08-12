@@ -266,6 +266,11 @@ body{
 //lo más vendido
 .swiper2{
     padding: 5rem 4rem;
+
+    .swiper-wrapper .img__item .gg{
+        position: relative;
+        overflow: hidden;
+    }
 }
 
 .swiper-slide {
@@ -287,22 +292,39 @@ body{
     -webkit-align-items: center;
     align-items: center;
 
-    .imghvr-shutter-in-out-diag-1{
-        background: rgba(255, 0, 0, 0.1);
+    .container__item__hover{
+        padding: 0 6%;
+        position: absolute;
+        background: #1515158c;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 10rem;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateY(100%);
+        cursor: pointer;
+        transition: transform .3s ease-in-out;
+    }
 
-        figcaption a:hover{
-            color: rgb(255, 255, 255);
-            text-align: center;
-            font-size: 2.8rem;
-            padding-top: 43%;
-        }
+    .container__item__hover a{
+        text-decoration:underline;
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
     }
   }
 
+html .img__item:hover .container__item__hover{
+    transform: translateX(0%);
+}
+
   .swiper-slide img {
     display: block;
-    width: 30rem;
-    height: 30rem;
+    width: 35rem;
+    height: 35rem;
     object-fit: cover;
     cursor: pointer;
   }  
@@ -470,12 +492,20 @@ body{
     .swiper-slide img {
         width: 15rem;
         height: 15rem;
-      }  
+      } 
+
+      .swiper2 .container__item__hover{
+        height: 4rem;
+      }
+      
+      .swiper2 .container__item__hover a{
+        font-size: 1rem;
+      }
   }
 
   @media (max-width:370px){
     .swiper-slide img {
-        width: 14rem;
-        height: 14rem;
+        width: 13rem;
+        height: 13rem;
       } 
   }  
