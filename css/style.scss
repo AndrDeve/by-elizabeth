@@ -382,14 +382,95 @@ html .img__item:hover .container__item__hover{
 
 //diseñamos tus accesorios
 .seccion-diseñamos{
-    padding-top: 4rem;
+    padding-top: 6rem;
     width: 100%;
+
+    .titulo-diseñamos{
+        text-align: center;
+        margin: 0 0 3rem 0;
+
+        h2{
+            font-size: 2.8rem;
+            color: #333333;
+            font-weight: 500;
+            letter-spacing: .5rem;
+        }
+
+        i{
+            font-size: 4.5rem;
+            color: #333333;
+        }
+    }
+
+    .color-seccion-diseñamos{
+        width: 100%;
+        background: #F6F3EF;
+
+        .container-seccion-diseñamos{
+            padding: 0 5%;
+
+            .diseñamos{
+                display: flex;
+                justify-content: space-between;
+                
+                ///////////////////////////////////
+                .imagenes-diseñamos{
+                    margin-top: 11.5rem;
+                }
+
+                .imagenes-diseñamos2 img{
+                    width: 60.8rem;
+                }
+            }
+
+            .diseñamos .imagenes-diseñamos .textos-diseñamos{
+                width: 480px;
+                background: #ffffff;
+                text-align: center;
+                padding: 2.5rem 0;
+
+                h3{
+                    color: #444444;
+                    font-size: 1.8rem;
+                    letter-spacing: 1px;
+                }
+
+                i{
+                    font-size: 3rem;
+                }
+
+                span{
+                    color: $letras-nav;
+                    font-size: 1.5rem;
+                    font-style: italic;
+                }
+            }
+        }
+    }
 }  
 
 
 
 
 // media queries
+@media (max-width:1075px){
+    .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos{
+       align-items: center;
+    }
+
+    .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .dise1{
+        flex-direction: column-reverse;
+    }
+
+    .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .dise2{
+        flex-direction: column;
+    }
+
+    .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .dise3{
+        flex-direction: column-reverse;
+    }
+}
+
 @media (max-width:991px){
 
     html{
@@ -532,6 +613,22 @@ html .img__item:hover .container__item__hover{
       .swiper2 .container__item__hover a{
         font-size: 1rem;
       }
+
+      .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos{
+        margin: 1rem 0 5rem 0;
+      }
+
+      .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos img{
+        width: 55rem;
+      }
+
+      .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos .textos-diseñamos{
+        width: 55rem;
+      }
+
+      .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos2 img{
+        width: 55rem;
+      }
 }
 
 
@@ -565,7 +662,7 @@ html .img__item:hover .container__item__hover{
 
     .swiper2 .lo-mas-vendido{
         h2{
-            font-size: 2.5rem;
+            font-size: 2.2rem;
         }
     }
 
@@ -580,6 +677,22 @@ html .img__item:hover .container__item__hover{
       
       .swiper2 .container__item__hover a{
         font-size: 1rem;
+      }
+
+      .seccion-diseñamos .titulo-diseñamos h2{
+        font-size: 2.2rem;
+      }
+
+      .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos img{
+        width: 40rem;
+      }
+
+      .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos .textos-diseñamos{
+        width: 40rem;
+      }
+
+      .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos2 img{
+        width: 40rem;
       }
   }
 
