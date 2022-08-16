@@ -271,6 +271,22 @@ body{
         position: relative;
         overflow: hidden;
     }
+
+    .lo-mas-vendido{
+        text-align: center;
+        margin: 0 0 3rem 0;
+
+        h2{
+            font-size: 3rem;
+            color: #333333;
+            font-weight: 500;
+        }
+
+        i{
+            font-size: 4.5rem;
+            color: #333333;
+        }
+    }
 }
 
 .swiper-slide {
@@ -313,7 +329,7 @@ body{
     .container__item__hover a{
         text-decoration:underline;
         color: rgb(255, 255, 255);
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
   }
 

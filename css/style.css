@@ -227,6 +227,19 @@ body {
   position: relative;
   overflow: hidden;
 }
+.swiper2 .lo-mas-vendido {
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+.swiper2 .lo-mas-vendido h2 {
+  font-size: 3rem;
+  color: #333333;
+  font-weight: 500;
+}
+.swiper2 .lo-mas-vendido i {
+  font-size: 4.5rem;
+  color: #333333;
+}
 
 .swiper-slide {
   /* Center slide text vertically */
@@ -254,7 +267,7 @@ body {
 .swiper-slide .container__item__hover a {
   text-decoration: underline;
   color: rgb(255, 255, 255);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 html .img__item:hover .container__item__hover {
