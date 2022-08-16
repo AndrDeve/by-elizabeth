@@ -363,6 +363,29 @@ html .img__item:hover .container__item__hover{
     cursor: pointer;
   }  
 
+.boton-comprar{
+    text-align: center;
+    margin-top: 2.5rem;
+
+    button:hover{
+        transform: scale(1.05);
+    }
+
+    button a{
+        background: #222222;
+        color: #ffffff;
+        padding: 1rem 3.5rem;
+        font-size: 1.5rem;
+        border-radius: .5rem;
+    }
+}  
+
+//diseñamos tus accesorios
+.seccion-diseñamos{
+    padding-top: 4rem;
+    width: 100%;
+}  
+
 
 
 
