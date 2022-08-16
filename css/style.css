@@ -248,6 +248,19 @@ body {
   justify-content: center;
   align-items: center;
 }
+.swiper-slide .img__item .contenido-img-item {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.swiper-slide .img__item .contenido-img-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.swiper-slide .img__item .contenido-img-item span {
+  color: #C39E2E;
+  font-size: 2rem;
+  font-style: italic;
+}
 .swiper-slide .container__item__hover {
   padding: 0 6%;
   position: absolute;
@@ -255,7 +268,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 10rem;
+  height: 8.5rem;
   color: #fff;
   text-align: center;
   display: flex;
