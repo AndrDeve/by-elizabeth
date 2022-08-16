@@ -232,9 +232,10 @@ body {
   margin: 0 0 3rem 0;
 }
 .swiper2 .lo-mas-vendido h2 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: #333333;
   font-weight: 500;
+  letter-spacing: 0.5rem;
 }
 .swiper2 .lo-mas-vendido i {
   font-size: 4.5rem;
