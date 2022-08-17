@@ -370,7 +370,7 @@ html .img__item:hover .container__item__hover {
 }
 
 .seccion-siguenos {
-  padding: 6rem 6%;
+  padding: 6rem 5%;
 }
 .seccion-siguenos .textos-siguenos {
   text-align: center;
@@ -386,6 +386,24 @@ html .img__item:hover .container__item__hover {
   color: #C39E2E;
   font-size: 2.8rem;
   font-family: "Oleo Script Swash Caps", cursive;
+  text-shadow: 1px 1px rgb(139, 118, 0);
+}
+.seccion-siguenos .contenedor-siguenos {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.seccion-siguenos .contenedor-siguenos .imagenes-siguenos {
+  margin: 0 auto;
+  align-items: center;
+}
+.seccion-siguenos .contenedor-siguenos .imagenes-siguenos img {
+  height: 40rem;
+  width: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 1075px) {
@@ -493,6 +511,10 @@ html .img__item:hover .container__item__hover {
   .swiper2 .container__item__hover a {
     font-size: 1.3rem;
   }
+  .seccion-siguenos .contenedor-siguenos .imagenes-siguenos img {
+    height: 35rem;
+    width: 35rem;
+  }
 }
 @media (max-width: 620px) {
   .swiper-slide img {
@@ -579,5 +601,9 @@ html .img__item:hover .container__item__hover {
   .swiper-slide img {
     width: 19rem;
     height: 19rem;
+  }
+  .seccion-siguenos .contenedor-siguenos .imagenes-siguenos img {
+    height: 19rem;
+    width: 19rem;
   }
 }/*# sourceMappingURL=style.css.map */
