@@ -449,6 +449,29 @@ html .img__item:hover .container__item__hover{
     }
 }  
 
+//siguénos en instagram
+.seccion-siguenos{
+    padding: 6rem 6%;
+
+    .textos-siguenos{
+        text-align: center;
+
+        h2{
+            font-size: 2.8rem;
+            color: #333333;
+            font-weight: 500;
+            letter-spacing: .5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        a{
+            color: $letras-nav;
+            font-size: 2.8rem;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            text-shadow: 1px 1px rgb(139, 118, 0);
+        }
+    }
+}
 
 
 
@@ -550,6 +573,10 @@ html .img__item:hover .container__item__hover{
             }
           }
         }
+      }
+
+      .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos{
+        margin: 1rem 0 5rem 0;
       }
 }
 

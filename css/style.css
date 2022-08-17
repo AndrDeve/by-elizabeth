@@ -369,6 +369,26 @@ html .img__item:hover .container__item__hover {
   font-style: italic;
 }
 
+.seccion-siguenos {
+  padding: 6rem 6%;
+}
+.seccion-siguenos .textos-siguenos {
+  text-align: center;
+}
+.seccion-siguenos .textos-siguenos h2 {
+  font-size: 2.8rem;
+  color: #333333;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+.seccion-siguenos .textos-siguenos a {
+  color: #C39E2E;
+  font-size: 2.8rem;
+  font-family: "Oleo Script Swash Caps", cursive;
+  text-shadow: 1px 1px rgb(139, 118, 0);
+}
+
 @media (max-width: 1075px) {
   .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos {
     align-items: center;
@@ -445,6 +465,9 @@ html .img__item:hover .container__item__hover {
   }
   .header .header-center .header-center-items .logos-redes-sociales .bx {
     font-size: 3rem;
+  }
+  .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos {
+    margin: 1rem 0 5rem 0;
   }
 }
 @media (max-width: 740px) {
