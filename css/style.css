@@ -440,9 +440,10 @@ html .img__item:hover .container__item__hover {
   border-radius: 1rem; /*imagen*/
   transform: scale(0);
   transition: transform 0.3s 0.2s;
-  height: 50rem;
-  width: 40rem;
+  height: 55rem;
+  width: 45rem;
   display: none;
+  margin-bottom: 10%;
 }
 
 .showImage {
