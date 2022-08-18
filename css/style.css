@@ -472,7 +472,7 @@ html .img__item:hover .container__item__hover {
 .footer .container-footer .logo {
   width: 18%;
   margin-top: 0.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .footer .container-footer .logo h3 {
   font-size: 2.5rem;
@@ -487,7 +487,7 @@ html .img__item:hover .container__item__hover {
   display: flex;
   flex-direction: column;
   font-size: 1.6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .footer .container-footer .links h3 {
   font-size: 2.5rem;
@@ -503,7 +503,7 @@ html .img__item:hover .container__item__hover {
   display: flex;
   flex-direction: column;
   font-size: 1.6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .footer .container-footer .horarios h3 {
   font-size: 2.5rem;
@@ -519,17 +519,13 @@ html .img__item:hover .container__item__hover {
   display: flex;
   flex-direction: column;
   font-size: 1.6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .footer .container-footer .contactanos h3 {
   font-size: 2.5rem;
   font-family: "Oleo Script Swash Caps", cursive;
   color: #C39E2E;
   font-weight: 300;
-}
-.footer .container-footer .contactanos span {
-  color: #333333;
-  margin-bottom: 1.5rem;
 }
 .footer .container-footer .contactanos a {
   color: #333333;
@@ -649,7 +645,31 @@ html .img__item:hover .container__item__hover {
     flex-direction: column;
   }
   .footer .container-footer hr {
-    width: 50%;
+    width: 60%;
+  }
+  .footer .container-footer .logo h3 {
+    font-size: 3rem;
+  }
+  .footer .container-footer .logo p {
+    font-size: 2rem;
+  }
+  .footer .container-footer .links h3 {
+    font-size: 3rem;
+  }
+  .footer .container-footer .links a {
+    font-size: 2rem;
+  }
+  .footer .container-footer .horarios h3 {
+    font-size: 3rem;
+  }
+  .footer .container-footer .horarios span {
+    font-size: 2rem;
+  }
+  .footer .container-footer .contactanos h3 {
+    font-size: 3rem;
+  }
+  .footer .container-footer .contactanos a {
+    font-size: 2rem;
   }
   .footer .container-footer .logo {
     width: 100%;

@@ -564,7 +564,7 @@ html .img__item:hover .container__item__hover{
     .logo{
         width: 18%;
         margin-top: 0.2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
 
         h3{
             font-size: 2.5rem;
@@ -582,7 +582,7 @@ html .img__item:hover .container__item__hover{
         display: flex;
         flex-direction: column;
         font-size: 1.6rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
 
         h3{
             font-size: 2.5rem;
@@ -601,7 +601,7 @@ html .img__item:hover .container__item__hover{
         display: flex;
         flex-direction: column;
         font-size: 1.6rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
 
         h3{
             font-size: 2.5rem;
@@ -620,18 +620,13 @@ html .img__item:hover .container__item__hover{
         display: flex;
         flex-direction: column;
         font-size: 1.6rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
 
         h3{
             font-size: 2.5rem;
             font-family: 'Oleo Script Swash Caps', cursive;
             color: $letras-nav;
             font-weight: 300;
-        }
-
-        span{
-            color: #333333;
-            margin-bottom: 1.5rem;
         }
 
         a{
@@ -787,7 +782,39 @@ html .img__item:hover .container__item__hover{
         flex-direction: column;
 
         hr{
-            width: 50%;
+            width: 60%;
+        }
+
+        .logo h3{
+            font-size: 3rem;
+        }
+
+        .logo p{
+            font-size: 2rem;
+        }
+
+        .links h3{
+            font-size: 3rem;
+        }
+
+        .links a{
+            font-size: 2rem;
+        }
+
+        .horarios h3{
+            font-size: 3rem;
+        }
+
+        .horarios span{
+            font-size: 2rem;
+        }
+
+        .contactanos h3{
+            font-size: 3rem;
+        }
+
+        .contactanos a{
+            font-size: 2rem;
         }
       }
 
