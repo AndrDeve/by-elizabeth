@@ -451,7 +451,7 @@ html .img__item:hover .container__item__hover{
 
 //siguénos en instagram
 .seccion-siguenos{
-    padding: 6rem 5%;
+    padding: 6rem 5% 0 5%;
 
     .textos-siguenos{
         text-align: center;
@@ -483,6 +483,10 @@ html .img__item:hover .container__item__hover{
 
             position: relative;
             overflow: hidden;
+
+            &:hover{
+                transform: scale(1.02);
+            }
 
             .projects__img{
                 object-fit:cover;
@@ -539,7 +543,104 @@ html .img__item:hover .container__item__hover{
   //ligtbox final
 
 
+//footer
+.footer{
+    padding: 2rem 6%;
+    width: 100%;
+    background: #F8F2FC;
 
+   .container-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3rem 0 0 0;
+    
+    hr{
+        border: 1px solid $letras-nav;
+        width: 100%;
+        margin: .5rem 0 1rem;
+      }
+
+    .logo{
+        width: 18%;
+        margin-top: 0.2rem;
+        margin-bottom: 2rem;
+
+        h3{
+            font-size: 2.5rem;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            color: $letras-nav;
+            font-weight: 300;
+        }
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+
+        h3{
+            font-size: 2.5rem;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            color: $letras-nav;
+            font-weight: 300;
+        }
+
+        a{  
+            color: #333333;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .horarios{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+
+        h3{
+            font-size: 2.5rem;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            color: $letras-nav;
+            font-weight: 300;
+        }
+
+        span{
+            color: #333333;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .contactanos{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+
+        h3{
+            font-size: 2.5rem;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            color: $letras-nav;
+            font-weight: 300;
+        }
+
+        span{
+            color: #333333;
+            margin-bottom: 1.5rem;
+        }
+
+        a{
+            color: #333333;
+            margin-bottom: 1.5rem;
+        }
+    }
+   }
+}
 
 
 // media queries
@@ -680,6 +781,22 @@ html .img__item:hover .container__item__hover{
       .seccion-siguenos .contenedor-siguenos .imagenes-siguenos img{
         height: 35rem;
         width: 35rem;
+      }
+
+      .footer .container-footer{
+        flex-direction: column;
+
+        hr{
+            width: 50%;
+        }
+      }
+
+      .footer .container-footer .logo{
+        width: 100%;
+
+        p{
+            width: 70%;
+        }
       }
 }
 

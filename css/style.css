@@ -370,7 +370,7 @@ html .img__item:hover .container__item__hover {
 }
 
 .seccion-siguenos {
-  padding: 6rem 5%;
+  padding: 6rem 5% 0 5%;
 }
 .seccion-siguenos .textos-siguenos {
   text-align: center;
@@ -398,6 +398,9 @@ html .img__item:hover .container__item__hover {
   align-items: center;
   position: relative;
   overflow: hidden;
+}
+.seccion-siguenos .contenedor-siguenos .imagenes-siguenos:hover {
+  transform: scale(1.02);
 }
 .seccion-siguenos .contenedor-siguenos .imagenes-siguenos .projects__img {
   -o-object-fit: cover;
@@ -448,6 +451,89 @@ html .img__item:hover .container__item__hover {
 
 .showImage {
   transform: scale(0.8); /* lo que va a ampliar tamaño*/
+}
+
+.footer {
+  padding: 2rem 6%;
+  width: 100%;
+  background: #F8F2FC;
+}
+.footer .container-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 3rem 0 0 0;
+}
+.footer .container-footer hr {
+  border: 1px solid #C39E2E;
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+}
+.footer .container-footer .logo {
+  width: 18%;
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+}
+.footer .container-footer .logo h3 {
+  font-size: 2.5rem;
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #C39E2E;
+  font-weight: 300;
+}
+.footer .container-footer .logo p {
+  font-size: 1.5rem;
+}
+.footer .container-footer .links {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.footer .container-footer .links h3 {
+  font-size: 2.5rem;
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #C39E2E;
+  font-weight: 300;
+}
+.footer .container-footer .links a {
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+.footer .container-footer .horarios {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.footer .container-footer .horarios h3 {
+  font-size: 2.5rem;
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #C39E2E;
+  font-weight: 300;
+}
+.footer .container-footer .horarios span {
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+.footer .container-footer .contactanos {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.footer .container-footer .contactanos h3 {
+  font-size: 2.5rem;
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #C39E2E;
+  font-weight: 300;
+}
+.footer .container-footer .contactanos span {
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+.footer .container-footer .contactanos a {
+  color: #333333;
+  margin-bottom: 1.5rem;
 }
 
 @media (max-width: 1075px) {
@@ -558,6 +644,18 @@ html .img__item:hover .container__item__hover {
   .seccion-siguenos .contenedor-siguenos .imagenes-siguenos img {
     height: 35rem;
     width: 35rem;
+  }
+  .footer .container-footer {
+    flex-direction: column;
+  }
+  .footer .container-footer hr {
+    width: 50%;
+  }
+  .footer .container-footer .logo {
+    width: 100%;
+  }
+  .footer .container-footer .logo p {
+    width: 70%;
   }
 }
 @media (max-width: 620px) {
