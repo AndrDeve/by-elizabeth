@@ -454,7 +454,7 @@ html .img__item:hover .container__item__hover {
 }
 
 .footer {
-  padding: 2rem 6%;
+  padding: 2rem 6% 0 6%;
   width: 100%;
   background: #F8F2FC;
 }
@@ -482,6 +482,7 @@ html .img__item:hover .container__item__hover {
 }
 .footer .container-footer .logo p {
   font-size: 1.5rem;
+  color: #333333;
 }
 .footer .container-footer .links {
   display: flex;
@@ -530,6 +531,19 @@ html .img__item:hover .container__item__hover {
 .footer .container-footer .contactanos a {
   color: #333333;
   margin-bottom: 1.5rem;
+}
+
+body .copy {
+  padding: 2rem 0;
+  text-align: center;
+  background: #F6F3EF;
+  width: 100%;
+}
+body .copy span {
+  font-size: 1.7rem;
+}
+body .copy span .span {
+  color: #C39E2E;
 }
 
 @media (max-width: 1075px) {
@@ -764,6 +778,9 @@ html .img__item:hover .container__item__hover {
   }
   .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos2 img {
     width: 40rem;
+  }
+  body .copy span {
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 370px) {

@@ -545,7 +545,7 @@ html .img__item:hover .container__item__hover{
 
 //footer
 .footer{
-    padding: 2rem 6%;
+    padding: 2rem 6% 0 6%;
     width: 100%;
     background: #F8F2FC;
 
@@ -575,6 +575,7 @@ html .img__item:hover .container__item__hover{
 
         p{
             font-size: 1.5rem;
+            color: #333333;
         }
     }
 
@@ -635,6 +636,21 @@ html .img__item:hover .container__item__hover{
         }
     }
    }
+}
+
+body .copy{
+    padding: 2rem 0 ;
+    text-align: center;
+    background: $crema-claro;
+    width: 100%;
+
+    span{
+        font-size: 1.7rem;
+  
+        .span{
+          color:$letras-nav ;
+        }
+      }
 }
 
 
@@ -946,6 +962,13 @@ html .img__item:hover .container__item__hover{
 
       .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos2 img{
         width: 40rem;
+      }
+
+      body .copy{
+
+        span{
+            font-size: 1.4rem;
+        }
       }
   }
 
