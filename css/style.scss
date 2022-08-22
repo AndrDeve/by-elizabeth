@@ -971,6 +971,9 @@ body .copy{
       }  
 
       //productos anillos aretes etc
+      .productos .contenedor-productos .items-imagenes{
+        padding: 0;
+      }
       .productos .contenedor-productos .items-imagenes .contenedor{
        margin: 3rem auto;
       }
