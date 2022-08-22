@@ -805,6 +805,10 @@ body .copy span .span {
   .productos .contenedor-productos .items-imagenes .contenedor {
     margin: 3rem auto;
   }
+  .productos .contenedor-productos .items-imagenes .contenedor img {
+    height: 37rem;
+    width: 34rem;
+  }
 }
 @media (max-width: 550px) {
   .home .home-slider .swiper-wrapper .slide {
