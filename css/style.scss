@@ -418,8 +418,33 @@ html .img__item:hover .container__item__hover{
                     margin-top: 11.5rem;
                 }
 
+                .imagenes-diseñamos2 figure{
+                    position: relative;
+                }
+
                 .imagenes-diseñamos2 img{
                     width: 60.8rem;
+                }
+
+                .imagenes-diseñamos2 a h3{
+                    font-size: 2rem;
+                    position: absolute;
+                    bottom: 50%;
+                    left: 50%;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background: rgb(11, 11, 11, 50%);
+                    padding: 1.5rem 3.5rem;
+                    transform: translate(-50%, 50%);
+                    color: #ffffff;
+                    border: .2rem solid #ffffff;
+                    letter-spacing: .5rem;
+
+                    &:hover{
+                        font-size: 2.1rem;
+                    }
                 }
             }
 
@@ -548,6 +573,7 @@ html .img__item:hover .container__item__hover{
     padding: 2rem 6% 0 6%;
     width: 100%;
     background: #F8F2FC;
+    border-top: 1px solid $letras-nav;
 
    .container-footer{
     display: flex;
@@ -638,6 +664,10 @@ html .img__item:hover .container__item__hover{
    }
 }
 
+.footer2{
+    border-top: 1px solid $letras-nav;
+}
+
 body .copy{
     padding: 2rem 0 ;
     text-align: center;
@@ -651,6 +681,96 @@ body .copy{
           color:$letras-nav ;
         }
       }
+}
+
+
+//anillos.html
+.productos{
+    margin-top: 8rem;
+    width: 100%;
+
+    .contenedor-productos{
+        padding: 2rem 4% 2rem 4%;
+        background: #F8F2FC;
+
+        .titulo-productos{
+            text-align: center;
+
+            h2{
+                font-size: 2.8rem;
+                color: #333333;
+                font-weight: 500;
+                letter-spacing: .5rem;
+                margin-top: 5rem;
+            }
+
+            i{
+                font-size: 4.5rem;
+                color: #333333;
+            }
+        }
+
+        .items-imagenes{
+            padding-top: 3rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .contenedor{
+                margin-bottom: 5rem;
+                // box-shadow: .1rem 0 1rem .1rem #cacaca;
+                text-align: center;
+                // background: #F8F2FC;
+                
+                img{
+                    height: 32rem;
+                    width: 29rem;
+                    cursor: pointer;
+                    z-index: 3000;
+                    object-fit: cover;
+                  }
+
+                  .textos{
+                    margin-top: 1rem;
+
+                    span{
+                        font-size: 1.5rem;
+                        font-style: italic;
+                    }
+
+                    p{
+                        font-size: 2.2rem;
+                        margin-top: .5rem;
+                    }
+
+                    i{
+                        font-size: 2.5rem;
+                    }
+                  }
+                  .span{
+                    color: $letras-nav;
+                    font-size: 2.2rem;
+                    font-style: italic;
+                    letter-spacing: .1rem;
+                }
+
+                button{
+                    width: 100%;
+                    margin-top: 1rem;
+                    background: #000;
+                    color: #ffffff;
+                    font-size: 1.8rem;
+                    padding: .8rem 0;
+                    border-radius: 1rem;
+                    cursor: pointer;
+
+                    &:hover{
+                        transform: scale(1.03);
+                    }
+                }
+            }
+        }
+    }
 }
 
 
