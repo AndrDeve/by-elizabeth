@@ -664,6 +664,64 @@ body .copy span .span {
   transform: scale(1.03);
 }
 
+.sobre-nosotros {
+  width: 100%;
+  height: 100%;
+  margin-top: 15rem;
+}
+.sobre-nosotros .container-nosotros {
+  display: flex;
+  justify-content: space-between;
+}
+.sobre-nosotros .titulo-sobre {
+  text-align: center;
+}
+.sobre-nosotros .titulo-sobre h2 {
+  font-size: 2.8rem;
+  color: #333333;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+  margin-top: 5rem;
+}
+.sobre-nosotros .titulo-sobre i {
+  font-size: 4.5rem;
+  color: #333333;
+}
+.sobre-nosotros .textos-nosotros {
+  width: 50%;
+  background: #F6F3EF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sobre-nosotros .textos-nosotros img {
+  height: 13rem;
+  width: 26rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sobre-nosotros .textos-nosotros i {
+  font-size: 4.5rem;
+  color: #333333;
+}
+.sobre-nosotros .textos-nosotros p {
+  width: 50%;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+.sobre-nosotros .imagen-nosotros {
+  width: 50%;
+}
+.sobre-nosotros .imagen-nosotros img {
+  height: 70rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 1075px) {
   .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos {
     align-items: center;
@@ -743,6 +801,16 @@ body .copy span .span {
   }
   .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos .imagenes-diseñamos {
     margin: 1rem 0 5rem 0;
+  }
+  .sobre-nosotros .container-nosotros {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sobre-nosotros .container-nosotros .textos-nosotros {
+    width: 100%;
+  }
+  .sobre-nosotros .container-nosotros .imagen-nosotros {
+    width: 100%;
   }
 }
 @media (max-width: 740px) {
@@ -825,6 +893,15 @@ body .copy span .span {
   .productos .contenedor-productos .items-imagenes .contenedor img {
     height: 37rem;
     width: 34rem;
+  }
+  .sobre-nosotros .container-nosotros .textos-nosotros img {
+    margin-top: 4rem;
+  }
+  .sobre-nosotros .container-nosotros .textos-nosotros p {
+    margin-bottom: 4rem;
+  }
+  .sobre-nosotros .container-nosotros .textos-nosotros p {
+    width: 70%;
   }
 }
 @media (max-width: 550px) {
@@ -909,6 +986,9 @@ body .copy span .span {
   }
   body .copy span {
     font-size: 1.4rem;
+  }
+  .sobre-nosotros .container-nosotros .imagen-nosotros img {
+    height: 40rem;
   }
 }
 @media (max-width: 370px) {
