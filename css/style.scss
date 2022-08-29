@@ -867,6 +867,60 @@ body .copy{
     }
 }
 
+// contactanos
+.container-contactanos{
+    width: 100%;
+    background: $crema-claro;
+
+    h3{
+        font-size: 2.8rem;
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-weight: 300;
+        margin-bottom: .5rem;
+        color: #333333;
+    }
+
+    span{
+        font-size: 2rem;
+        color: #333333;
+    }
+
+    .textos-contactanos{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5rem 0;
+    }
+
+    .dudas{
+        text-align: center;
+        padding-bottom: 5rem;
+
+        .iconos-redes{
+            margin: 2rem 2rem 0 2rem;
+            font-size: 4rem;
+
+            .bxl-facebook{
+                color: #2c55ad;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .bxl-instagram{
+                color: rgb(147, 10, 10);
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .bxl-whatsapp{
+                color: green;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
 
 // media queries
 @media (max-width:1075px){
@@ -1032,35 +1086,35 @@ body .copy{
         }
 
         .logo h3{
-            font-size: 3rem;
+            font-size: 2.8rem;
         }
 
         .logo p{
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
 
         .links h3{
-            font-size: 3rem;
+            font-size: 2.8rem;
         }
 
         .links a{
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
 
         .horarios h3{
-            font-size: 3rem;
+            font-size: 2.8rem;
         }
 
         .horarios span{
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
 
         .contactanos h3{
-            font-size: 3rem;
+            font-size: 2.8rem;
         }
 
         .contactanos a{
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
       }
 
@@ -1153,6 +1207,17 @@ body .copy{
 
         .agregar-imagen{
             display: flex;
+        }
+      }
+
+      //contactanos
+      .container-contactanos .textos-contactanos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .horarios-contactanos{
+            margin-bottom: 5rem;
         }
       }
 }

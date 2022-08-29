@@ -726,6 +726,53 @@ body .copy span .span {
      object-fit: cover;
 }
 
+.container-contactanos {
+  width: 100%;
+  background: #F6F3EF;
+}
+.container-contactanos h3 {
+  font-size: 2.8rem;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  color: #333333;
+}
+.container-contactanos span {
+  font-size: 2rem;
+  color: #333333;
+}
+.container-contactanos .textos-contactanos {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem 0;
+}
+.container-contactanos .dudas {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.container-contactanos .dudas .iconos-redes {
+  margin: 2rem 2rem 0 2rem;
+  font-size: 4rem;
+}
+.container-contactanos .dudas .iconos-redes .bxl-facebook {
+  color: #2c55ad;
+}
+.container-contactanos .dudas .iconos-redes .bxl-facebook:hover {
+  transform: scale(1.1);
+}
+.container-contactanos .dudas .iconos-redes .bxl-instagram {
+  color: rgb(147, 10, 10);
+}
+.container-contactanos .dudas .iconos-redes .bxl-instagram:hover {
+  transform: scale(1.1);
+}
+.container-contactanos .dudas .iconos-redes .bxl-whatsapp {
+  color: green;
+}
+.container-contactanos .dudas .iconos-redes .bxl-whatsapp:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 1075px) {
   .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos {
     align-items: center;
@@ -853,28 +900,28 @@ body .copy span .span {
     margin-bottom: 1.5rem;
   }
   .footer .container-footer .logo h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .footer .container-footer .logo p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .footer .container-footer .links h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .footer .container-footer .links a {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .footer .container-footer .horarios h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .footer .container-footer .horarios span {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .footer .container-footer .contactanos h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .footer .container-footer .contactanos a {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .footer .container-footer .logo {
     width: 100%;
@@ -943,6 +990,14 @@ body .copy span .span {
   }
   .seccion-siguenos .imagen-light .agregar-imagen {
     display: flex;
+  }
+  .container-contactanos .textos-contactanos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-contactanos .textos-contactanos .horarios-contactanos {
+    margin-bottom: 5rem;
   }
 }
 @media (max-width: 450px) {
