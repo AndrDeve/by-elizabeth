@@ -773,6 +773,167 @@ body .copy span .span {
   transform: scale(1.1);
 }
 
+.sobre-nosotros .container-catalogo {
+  width: 100%;
+  background: #F8F2FC;
+}
+.sobre-nosotros .container-catalogo .wrap {
+  margin-top: 1rem;
+  padding: 5rem 3%;
+}
+.sobre-nosotros .container-catalogo .wrap .products-list .product-item {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sobre-nosotros .container-catalogo .store-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre-nosotros .container-catalogo .category_list {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+}
+.sobre-nosotros .container-catalogo .category_list p {
+  font-size: 2rem;
+  color: #444444;
+}
+.sobre-nosotros .container-catalogo .category_list hr {
+  border: 0.1rem solid #999999;
+  margin: 1rem 0 3rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.sobre-nosotros .container-catalogo .category_list a {
+  font-size: 1.5rem;
+  color: #444444;
+}
+.sobre-nosotros .container-catalogo .category_list .category_item {
+  display: block;
+  width: 90%;
+  padding: 1px 0;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+.sobre-nosotros .container-catalogo .category_list .ct_item-active {
+  color: #C39E2E;
+  font-size: 1.7rem;
+}
+.sobre-nosotros .container-catalogo .products-list {
+  width: 82%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre-nosotros .container-catalogo .products-list .product-item {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.4s;
+}
+.sobre-nosotros .container-catalogo .products-list .product-item .textos {
+  margin-top: 1rem;
+}
+.sobre-nosotros .container-catalogo .products-list .product-item .textos span {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+.sobre-nosotros .container-catalogo .products-list .product-item .textos p {
+  font-size: 1.9rem;
+  margin-top: 0.5rem;
+}
+.sobre-nosotros .container-catalogo .products-list .product-item .textos i {
+  font-size: 2.2rem;
+}
+.sobre-nosotros .container-catalogo .products-list .product-item .span {
+  color: #C39E2E;
+  font-size: 1.9rem;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+}
+.sobre-nosotros .container-catalogo .products-list .product-item button {
+  width: 100%;
+  margin: 1rem 0 3rem 0;
+  background: #000;
+  color: #ffffff;
+  font-size: 1.8rem;
+  padding: 0.8rem 0;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.sobre-nosotros .container-catalogo .products-list .product-item button:hover {
+  transform: scale(1.03);
+}
+.sobre-nosotros .container-catalogo .products-list .product-item img {
+  width: 100%;
+  height: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* RESPONSIVE ================================ del jquery*/
+@media screen and (max-width: 1100px) {
+  .container-catalogo .wrap .store-wrapper .products-list .product-item {
+    width: 30.3%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container-catalogo .wrap .store-wrapper .category_list, .store-wrapper .products-list {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .container-catalogo .wrap .store-wrapper .category_list {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+  }
+  .container-catalogo .wrap .store-wrapper .category_list .category_item {
+    align-self: flex-start;
+    width: 100%;
+  }
+  .container-catalogo .wrap .store-wrapper .products-list .product-item {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container-catalogo .wrap .store-wrapper .category_list {
+    flex-direction: column;
+  }
+  .container-catalogo .wrap .store-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container-catalogo .wrap .store-wrapper .products-list {
+    margin: 0 auto;
+  }
+  .container-catalogo .wrap .store-wrapper .products-list .product-item {
+    width: 100%;
+  }
+  .container-catalogo .wrap .store-wrapper .products-list .product-item img {
+    height: 40rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .wrap > h3 {
+    font-size: 2rem;
+  }
+  .wrap .store-wrapper .products-list .product_item {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .wrap .store-wrapper .products-list .product-item img {
+    height: 180px;
+  }
+}
 @media (max-width: 1075px) {
   .seccion-diseñamos .color-seccion-diseñamos .container-seccion-diseñamos .diseñamos {
     align-items: center;

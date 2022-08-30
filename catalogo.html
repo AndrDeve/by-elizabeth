@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Accesorios | By Elizabeth Gómez</title>
+
+     <!-- animaciones css  -->
+     <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     
+     <!-- font awesome cdn link ICONOS DE HAMBURGUESA Y LA X  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ 
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+ 
+     <!-- custom css file link  -->
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <!--inicio header-->
+    <header class="header">
+        <div class="header-center">
+           <div class="header-center-items">
+               <figure>
+                    <img src="img/logo.png" alt="">
+               </figure>   
+               <div id="menu-btn" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <a href="index.html">Inicio</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="contactanos.html">Contáctanos</a>
+            </nav>
+
+            <div class="logos-redes-sociales">
+                <a href="https://www.facebook.com/ByElizabethGomez" class="bx bxl-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/by_elizabethgomez/?utm_medium=copy_link" class="bx bxl-instagram" target="_blank"></a>
+            </div>
+            
+        </div>
+           </div>
+        </div>
+    </header>
+    <!--final header-->
+
+
+    <section class="sobre-nosotros">
+        <div class="titulo-sobre">
+            <h2>Catálogo</h2>
+            <i class='bx bx-minus'></i>
+        </div>
+
+        <div class="container-catalogo">
+            <div class="wrap scroll">
+                <div class="" id="escoge-un-producto"></div>
+                <!-- <a href="pdf/TBH-Catálogo.pdf" class="animate__animated animate__headShake animate__infinite descarga" download="">Descarga Catálogo</a> -->
+                <!-- <h3>Escoge un producto</h3> -->
+                <div class="store-wrapper">
+                    <div class="category_list">
+                        <p>Filtrar por</p>
+                        <hr>
+                        <a href="#escoge-un-producto" class="category_item" category="all">Todo</a>
+                        <!-- <a href="#escoge-un-producto" class="category_item" category="bolsos">Bolsos</a> -->
+                        <a href="#escoge-un-producto" class="category_item" category="aretes">Aretes</a>
+                        <a href="#escoge-un-producto" class="category_item" category="anillos">Anillos</a>
+                        <a href="#escoge-un-producto" class="category_item" category="cadenas">Cadenas y collares</a>
+                        <a href="#escoge-un-producto" class="category_item" category="masvendido">Lo más vendido</a>
+                        <a href="#escoge-un-producto" class="category_item" category="gafastapabocas">Cualga gafas y tapabocas</a>
+                        <a href="#escoge-un-producto" class="category_item" category="sombreros">Sombreros</a>
+                        <a href="#escoge-un-producto" class="category_item" category="pulseras">Pulseras</a>
+                        <!-- <a href="pdf/TBH-Catálogo.pdf" class="animate__animated animate__headShake animate__infinite category_item descarga" download="">Descarga Catálogo</a> -->
+                    </div>
+
+                    <section class="products-list">
+                        <div class="product-item" category="aretes">
+                            <img src="img/i7.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                        </div>
+                        <div class="product-item" category="aretes">
+                            <img src="img/i7.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        
+                        <div class="product-item" category="anillos">
+                            <img src="img/anillos.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <div class="product-item" category="anillos">
+                            <img src="img/anillos.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div> 
+                        
+
+
+
+                        <div class="product-item" category="cadenas">
+                            <img src="img/collares.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <div class="product-item" category="cadenas">
+                            <img src="img/collares.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <div class="product-item" category="aretes">
+                            <img src="img/i7.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <div class="product-item" category="anillos">
+                            <img src="img/anillos.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+
+                        <div class="product-item" category="cadenas">
+                            <img src="img/collares.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                           
+                        </div>
+                        <div class="product-item" category="masvendido">
+                            <img src="img/11.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                           
+                        </div>
+                        <div class="product-item" category="masvendido">
+                            <img src="img/11.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <div class="product-item" category="masvendido">
+                            <img src="img/11.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+
+
+
+                        <div class="product-item" category="gafastapabocas">
+                            <img src="img/cuelga.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <div class="product-item" category="gafastapabocas">
+                            <img src="img/cuelga.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <!-- <div class="product-item" category="bolsos">
+                            <img src="img/bolso1.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div>
+                        <div class="product-item" category="bolsos">
+                            <img src="img/bolso3.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div> -->
+
+
+                        
+                        <div class="product-item" category="gafastapabocas">
+                            <img src="img/cuelga.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+        
+                        </div>  
+                        <div class="product-item" category="sombreros">
+                            <img src="img/sombrero.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>                 
+                          
+                        <!-- <div class="product-item" category="bolsos">
+                            <img src="img/bolso.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div>
+                        <div class="product-item" category="bolsos">
+                            <img src="img/bolso2.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div>   -->
+
+                        
+                        
+                        <div class="product-item" category="sombreros">
+                            <img src="img/sombrero.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <div class="product-item" category="sombreros">
+                            <img src="img/sombrero.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <div class="product-item" category="pulseras">
+                            <img src="img/pulseras.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <div class="product-item" category="pulseras">
+                            <img src="img/pulseras.png" alt="" >
+                            <div class="textos">
+                                <span id="ref1">ref:1</span>
+                                <p id="r1">Nombre del producto</p>
+                                <i class='bx bx-minus'></i><br>
+                            </div>
+                            <span class="span" id="precio1">$11.000</span> <br>
+                            <button id="submit1">Comprar</button>
+                            
+                        </div>
+                        <!-- <div class="product-item" category="pulseras">
+                            <img src="img/pulseras.png" alt="" >
+                            
+                        </div> -->
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- inicio footer -->
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="logo">
+                <h3>ByElizabethGómez</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid in, eaque neque laborum voluptatibus assumenda ipsam quia quam velit magnam.</p>
+            </div>
+
+            <div class="links">
+                <h3>Enlaces</h3>
+                <hr>
+                <a href="">Inicio</a>
+                <a href="">Comprar Ahora</a>
+                <a href="">Quíenes Somos</a>
+            </div>
+
+            <div class="horarios">
+                <h3>Horarios</h3>
+                <hr>
+                <span>Lunes - Sábado</span>
+                <span>9:00am - 7:00pm</span>
+            </div>
+
+            <div class="contactanos">
+                <h3>Contactos</h3>
+                <hr>
+                <a href="">WhatsApp</a>
+                <a href="">Facebook</a>
+                <a href="">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <!-- final footer -->
+    <div class="copy">
+        <span>Created By <span class="span">Andrés Rivera</span> | All Rights Reserved!</span>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>
