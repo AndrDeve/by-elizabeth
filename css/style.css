@@ -795,12 +795,13 @@ body .copy span .span {
   width: 18%;
 }
 .sobre-nosotros .container-catalogo .category_list p {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #444444;
   border-bottom: 1.2px solid #C39E2E;
   margin-bottom: 3rem;
   padding: 1rem 0;
   font-weight: 500;
+  font-family: "Oleo Script Swash Caps", cursive;
 }
 .sobre-nosotros .container-catalogo .category_list a {
   font-size: 1.5rem;
@@ -913,7 +914,7 @@ body .copy span .span {
     padding: 0 8%;
   }
   .container-catalogo .wrap .store-wrapper .category_list p {
-    font-size: 2.3rem;
+    font-size: 3.3rem;
   }
   .container-catalogo .wrap .store-wrapper .category_list a {
     border-bottom: 0.1rem solid #C39E2E;
