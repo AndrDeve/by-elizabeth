@@ -536,6 +536,9 @@ html .img__item:hover .container__item__hover {
   color: #333333;
   margin-bottom: 1.5rem;
 }
+.footer .container-footer .links a:hover {
+  color: #C39E2E;
+}
 .footer .container-footer .horarios {
   display: flex;
   flex-direction: column;
@@ -567,6 +570,9 @@ html .img__item:hover .container__item__hover {
 .footer .container-footer .contactanos a {
   color: #333333;
   margin-bottom: 1.5rem;
+}
+.footer .container-footer .contactanos a:hover {
+  color: #C39E2E;
 }
 
 .footer2 {

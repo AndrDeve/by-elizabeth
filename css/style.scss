@@ -635,6 +635,10 @@ html .img__item:hover .container__item__hover{
         a{  
             color: #333333;
             margin-bottom: 1.5rem;
+
+            &:hover{
+                color: $letras-nav;
+            }
         }
     }
 
@@ -673,6 +677,10 @@ html .img__item:hover .container__item__hover{
         a{
             color: #333333;
             margin-bottom: 1.5rem;
+
+            &:hover{
+                color: $letras-nav;
+            }
         }
     }
    }
