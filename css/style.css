@@ -912,6 +912,9 @@ body .copy span .span {
     flex-direction: column;
     padding: 0 8%;
   }
+  .container-catalogo .wrap .store-wrapper .category_list p {
+    font-size: 2.3rem;
+  }
   .container-catalogo .wrap .store-wrapper .category_list a {
     border-bottom: 0.1rem solid #C39E2E;
     padding: 1rem 0;
