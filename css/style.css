@@ -910,10 +910,11 @@ body .copy span .span {
   .container-catalogo .wrap .store-wrapper .category_list {
     display: flex;
     flex-direction: column;
+    padding: 0 8%;
   }
   .container-catalogo .wrap .store-wrapper .category_list a {
     border-bottom: 0.1rem solid #C39E2E;
-    padding: 1rem 6%;
+    padding: 1rem 0;
     font-size: 1.8rem;
   }
 }

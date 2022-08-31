@@ -1119,10 +1119,11 @@ body .copy{
 .container-catalogo .wrap .store-wrapper .category_list{
     display: flex;
     flex-direction: column;
+    padding: 0 8%;
 
     a{  
         border-bottom: .1rem solid $letras-nav;
-        padding: 1rem 6%;
+        padding: 1rem 0;
         font-size: 1.8rem;
     }
 }
