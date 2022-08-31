@@ -915,7 +915,7 @@ body .copy span .span {
   .container-catalogo .wrap .store-wrapper .category_list a {
     border-bottom: 0.1rem solid #C39E2E;
     padding: 1rem 0;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 600px) {
