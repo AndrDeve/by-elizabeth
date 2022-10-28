@@ -180,6 +180,9 @@ body {
 .seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos {
   position: relative;
   margin-bottom: 3.5rem;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: 0.5s ease-in-out all;
 }
 .seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos img {
   height: 395px;
@@ -225,6 +228,10 @@ body {
 .seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos h2 a:hover {
   color: #C39E2E;
   font-size: 1.6rem;
+}
+.seccion-datos-dos .color-container-dos .container-datos-dos .item-datos-dos.visible {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .swiper2 {
@@ -871,6 +878,10 @@ body .copy span .span {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.5rem;
+  cursor: pointer;
+}
+.sobre-nosotros .container-catalogo .products-list .product-item img:hover {
+  transform: scale(1.02);
 }
 
 /* RESPONSIVE ================================ del jquery*/
