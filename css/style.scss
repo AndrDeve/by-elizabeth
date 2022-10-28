@@ -215,11 +215,6 @@ body{
                 position: relative;
                 margin-bottom: 3.5rem;
 
-                //animaciones
-                opacity: 0;
-                transform: scale(0.9);
-                transition: .5s ease-in-out all;
-
                 img{
                     height: 395px;
                     width: 326px;
@@ -269,11 +264,6 @@ body{
                         }
                     }
                 }
-            }
-
-            .item-datos-dos.visible{
-                opacity: 1;
-                transform: scale(1);
             }
         }
     }
